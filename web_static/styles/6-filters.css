@@ -60,7 +60,7 @@
     display: block;
     visibility: visible;
     z-index: 20;
-    opacity: 0.99
+    opacity: 0.9;
 }
 
 .popover {
@@ -69,11 +69,12 @@
     border-radius: 4px;
     display: none;
     visibility: hidden;
-    padding: 20px;
+    padding: 25px;
 }
 
 .popover  li {
-   list-style: none; 
+   list-style: none;
+   padding: 5px;
 }
 
 .popover h2 {
