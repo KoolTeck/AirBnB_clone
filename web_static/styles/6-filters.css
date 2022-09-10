@@ -49,12 +49,33 @@
     margin-left: 20px;
 }
 
+.locations:hover .popover {
+    display: block;
+    visibility: visible;
+    z-index: 20;
+    opacity: 0.99;
+}
+
+.amenities:hover .popover {
+    display: block;
+    visibility: visible;
+    z-index: 20;
+    opacity: 0.99
+}
+
 .popover {
     background-color: #FAFAFA;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
+    display: none;
+    visibility: hidden;
+    padding: 20px;
 }
 
-.popover ul li {
+.popover  li {
    list-style: none; 
+}
+
+.popover h2 {
+    font-size: 16px;
 }

@@ -1,0 +1,27 @@
+.places h1 {
+    font-size: 30px;
+    align-self: left;
+    text-align: left;
+}
+
+.places > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    jusify-content: center;
+    align-items: center;
+}
+
+.places div article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.places div article h2 {
+    font-size: 30px;
+}
+
