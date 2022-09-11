@@ -183,3 +183,22 @@ article .amenities-list h2 {
     font-size: 14px;
 }
 /* reviews style ends */
+
+/* media quer */
+@media screen and (max-width: 480px){
+    .container .filters {
+        flex-direction: column;
+        height: auto;
+        display: none;
+        visibility: hidden;
+    }
+    .locations, .amenities {
+        height: auto;
+        width: 100%;
+    }
+
+    .toggle {
+        visibility: visible;
+    }
+
+}

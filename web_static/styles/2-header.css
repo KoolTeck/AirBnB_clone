@@ -3,3 +3,8 @@ header {
     height: 70px;
     width: 100%;
 }
+
+.toggle {
+    border: 1px solid red;
+    width: 15px;
+}
