@@ -184,8 +184,13 @@ article .amenities-list h2 {
 }
 /* reviews style ends */
 
-/* media quer */
+/* media query */
 @media screen and (max-width: 480px){
+
+    .places div {
+	flex-direction: column;
+	margin: 20px 20px;
+    }
     .container .filters {
         flex-direction: column;
         height: auto;
@@ -199,6 +204,7 @@ article .amenities-list h2 {
 
     .toggle {
         visibility: visible;
+	margin-right: 10px;
     }
 
 }
