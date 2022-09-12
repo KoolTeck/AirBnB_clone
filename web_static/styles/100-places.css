@@ -188,8 +188,8 @@ article .amenities-list h2 {
 @media screen and (max-width: 480px){
 
     .places div {
-	flex-direction: column;
-	margin: 20px 20px;
+	flex-direction: row;
+	margin: 0;
     }
     .container .filters {
         flex-direction: column;
@@ -202,9 +202,32 @@ article .amenities-list h2 {
         width: 100%;
     }
 
-    .toggle {
+    .container .show {
+        display: block;
         visibility: visible;
-	margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    .places div {
+        flex-direction: column-reverse;
+        margin: 0;
+        }
+    
+      .places div article {
+        width: auto;
     }
 
+    .places article .price_by_night {
+        width: 32px;
+        height: 32px;
+        font-size: 15px;
+    }
+
+    .places article .information {
+        display: inline-table;
+        text-align: center;
+        width: 100%;
+    }
 }

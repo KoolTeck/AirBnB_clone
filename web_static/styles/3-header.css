@@ -13,7 +13,7 @@ header {
 
 
 .toggle {
-    width: 35px;
+    width: 40px;
     height: auto;
     margin-right: 25px;
     visibility: hidden;
@@ -57,3 +57,16 @@ header {
 }
 
 
+@media screen and (max-width: 480px) {
+    
+    .toggle {
+        visibility: visible;
+	    margin-right: 15px;
+    }
+
+    
+    .show {
+        display: block;
+        visibility: visible;
+    }
+}

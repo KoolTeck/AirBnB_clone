@@ -27,7 +27,7 @@
     </div>
   </header>
   <div class="container">
-    <section class="filters">
+    <section class="filters" id="filter">
       <div class="locations">
         <h3>States</h3>
         <h4>Califonia city</h4>
@@ -257,6 +257,14 @@
   <footer>
     Best School
   </footer>
+
+<script>
+  const hamburger = document.getElementById("toggle_ctrl");
+  const filter = document.getElementById("filter")
+  hamburger.addEventListener("click", () => {
+    filter.classList.toggle("show");
+  })
+</script>
 </body>
 
 </html>
